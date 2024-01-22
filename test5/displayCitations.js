@@ -4,7 +4,6 @@ function displayCitations() {
         if (!quotes[i].getAttribute("cite")) {
             continue;
         }
-        var url = quotes[i].getAttribute("cite");
         var quotesChildren = quotes.getElemntsByTagName("*");
         if (quotesChildren.length < 1) continue;
         var elem = quotesChildren[quotesChildren.length - 1];
@@ -18,4 +17,5 @@ function displayCitations() {
     }
 }
 
-window.onload = displayCitations;
+//window.onload = displayCitations;
+addLoadEvent(displayCitations);
