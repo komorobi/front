@@ -12,5 +12,17 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        charset: false,
+        javascriptEnabled: true, 
+        additionalData: '@import "./src/assets/variable.scss";'
+      }
+    }
+  },
+  server: {
+    host: '0.0.0.0',
   }
 })
