@@ -25,6 +25,20 @@
       "font_class": "tiantianquan",
       "unicode": "e606",
       "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "6775644",
+      "name": "爱心",
+      "font_class": "aixin",
+      "unicode": "eca1",
+      "unicode_decimal": 60577
+    },
+    {
+      "icon_id": "7127384",
+      "name": "加载",
+      "font_class": "jiazai",
+      "unicode": "e607",
+      "unicode_decimal": 58887
     }
   ]
 }
